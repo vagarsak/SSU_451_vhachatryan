@@ -8,7 +8,6 @@ public class Main {
        // vtoroe ();
     }
 
-
     public static void pervoe (){
         Scanner in = new Scanner(System.in);
         int god =  in.nextInt();
@@ -42,7 +41,7 @@ public class Main {
             for (int i = 1800; i<2017; i++) {
                 calendar.set(Calendar.YEAR,i);
                 String s = calendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.US);
-                if(s.equals("Fri") ){
+                if(s.equals("Fri")){
                     kit++;
                     System.out.println(i);
                 }
